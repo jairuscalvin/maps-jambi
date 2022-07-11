@@ -1,0 +1,17 @@
+.logo-Left {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(202, 137, 16);
+    text-decoration: none;
+    transition: 1.4s;
+}
+
+.logo-Right {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(185, 59, 17);
+    text-decoration: none;
+    transition: 1.4s;
+}
+
+.hover:hover {
+    color:rgb(164, 137, 188);
+}
