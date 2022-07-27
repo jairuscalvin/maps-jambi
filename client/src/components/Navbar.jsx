@@ -16,19 +16,19 @@ export default function Navbar() {
                         <Typography variant='h4'>
                             <Link to="/" 
                                 className='logo-Left hover'>
-                                Kota
+                                Jambi
                             </Link>
                         </Typography>
                         <Typography variant='h4' sx={{ flexGrow:1 }}>
                             <Link to="/" 
                                 className='logo-Right hover'>
-                                Jambi
+                                Province
                             </Link>
                         </Typography>
                         <Typography variant='h6' sx={{ flexGrow:1 }}>
                             <Link to="" style={{ textDecoration: "none", color: "black", marginRight: "5rem" }}>About</Link>
                             <Link to="" style={{ textDecoration: "none", color: "black", marginRight: "5rem" }}>News</Link>
-                            <Link to="" style={{ textDecoration: "none", color: "black" }}>Place</Link>
+                            <Link to="/survey" style={{ textDecoration: "none", color: "black" }}>Survey</Link>
                         </Typography>
 
                         <Stack direction="row" spacing={3}>

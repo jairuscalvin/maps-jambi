@@ -1,6 +1,6 @@
 .logo-Left {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(202, 137, 16);
+    color: rgb(238, 157, 6);
     text-decoration: none;
     transition: 1.4s;
 }
@@ -13,5 +13,6 @@
 }
 
 .hover:hover {
-    color:rgb(164, 137, 188);
+    color:rgb(115, 45, 175);
+    background-color: aliceblue;
 }

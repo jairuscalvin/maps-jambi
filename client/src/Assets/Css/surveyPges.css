@@ -1,0 +1,106 @@
+.bg {
+    background-image: url("https://thumb.viva.co.id/media/frontend/thumbs3/2022/01/07/61d84005d45f8-tugu-pers_1265_711.jpg");
+    
+    /* Add the blur effect */
+    filter: blur(100px);
+    -webkit-filter: blur(200px);
+    
+    /* Full height */
+    height: 650px; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1245px;
+    height: 600px;
+    position: absolute;
+    transform: translate(0, -670px);
+    padding: 20px;
+}
+
+.image {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.header {
+    display: flex;
+}
+
+.header .opening {
+    margin-left: 5px;
+    padding-top: -5px;
+    height: 50px;
+}
+
+.header .judul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 40px;
+    width: auto;
+    font-size: 27px;
+    transform: translate(-95px, 65px);
+}
+
+.body {
+    display: flex;
+    padding-top: 20px;
+    min-height: 400px;
+}
+
+.body .body-head-left {
+    width: 575px;
+    height: 250px;
+    border: 2px solid black;
+    border-right: transparent;
+    position: relative;
+}
+
+.body .body-head-middle {
+    width: 525px;
+    height: 250px;
+    border: 2px solid black;
+    border-right: transparent;
+    position: relative;
+}
+
+.body .body-head-right {
+    width: 350px;
+    height: 250px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.body .body-container {
+    padding: 10px 15px 10px 15px;
+}
+
+.body .STA {
+    margin-top: 10px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.body .head-middle{
+    display: flex;
+    flex-direction: row;
+    max-width: 525px;
+    height: 500px;
+}
+
+.body .half-container {
+    height: 106px;
+    max-width: 525px;
+    padding: 10px 15px 10px 15px;
+}
+
+.body .half-container .flex{
+    display: table-column;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
